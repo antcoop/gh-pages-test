@@ -4,7 +4,9 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import TestPage from './components/TestPage';
-import buildPath from './utils';
+import { buildPath } from './utils';
+
+console.log("PATH: ", buildPath);
 
 function App() {
   return (

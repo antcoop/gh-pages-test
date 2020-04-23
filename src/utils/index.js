@@ -1,4 +1,3 @@
-import buildPath from './buildPath';
-
-
-export default buildPath;
+export const buildPath = function(path) {
+  return process.env.PUBLIC_URL + path;
+}
